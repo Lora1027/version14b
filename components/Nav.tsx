@@ -1,4 +1,3 @@
-
 import Link from 'next/link'
 
 export default function Nav(){
@@ -6,6 +5,7 @@ export default function Nav(){
     <nav className="container">
       <Link href="/">Dashboard</Link>
       <Link href="/transactions">Transactions</Link>
+      <Link href="/inventory">Inventory</Link> {/* 👈 add this */}
       <Link href="/comparison">Comparison</Link>
       <Link href="/balances">Balances</Link>
       <Link href="/login">Login</Link>
